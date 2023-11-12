@@ -6,5 +6,5 @@ BEGIN
    v_text := 'Two months ago: ' || TO_CHAR (l_two_months_ago, 'DD.MM.YYYY')
       || ', today date: ' || TO_CHAR (SYSDATE, 'DD.MM.YYYY')
       || ', two months later: ' || TO_CHAR (l_two_months_later, 'DD.MM.YYYY');
-   DBMS_OUTPUT.PUT_LINE (v_text);
+   DBMS_OUTPUT.PUT_LINE(v_text);
 END;
